@@ -1,0 +1,135 @@
+body{
+    background-color:#000;
+    color:#999;
+    margin:0;
+}
+#wrapper{
+    display:flex;
+
+}
+#left{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    
+}
+#signin{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#signin .logo{
+    height:20vh;
+    margin-top:30px;
+}
+#signin form{
+    line-height: 5rem;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+
+}
+#signin form .input{
+    line-height:3rem;
+    
+}
+
+#signin form .text-input{
+    display:flex;
+    flex-direction:column;
+    background-color:#000;
+    border-color:#999;
+    border-style:solid;
+    border-width:1px;
+    color:#fff;
+    width:16rem;
+    padding:12px;
+
+}
+.primary-btn{
+    background-color:#FF4500;
+    color:#fff;
+    padding:12px;
+    border-style: none;
+    border-radius:2px;
+    width:17.5rem;
+}
+button{
+    margin:20px;
+}
+.primary-btn:hover{
+    background-color:#FF8C00;
+    cursor: pointer;
+}
+.links{
+    display:flex;
+    flex-direction:column;
+    line-height:2.3rem;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color:#fff;
+}
+.links a:hover{
+    color:#FF4500;
+    text-decoration: underline;
+}
+#signin .or{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin:2rem;
+}
+#signin .or .bar{
+    background:#aaa;
+    width:5.5rem;
+    border-width:1px;
+}
+.secondar-btn{
+    border:1px solid #fff;
+    padding:12px;
+    width:12rem;
+
+}
+footer{
+    text-align:center;
+}
+footer a:hover{
+    color:#FF4500;
+    text-decoration:underline;
+
+}
+#right{
+    flex:2;
+}
+#right{
+    background: url("https://image.ibb.co/cO9Lxq/login-bg.jpg");
+    background-position: center;
+}
+#showcase{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top:30%;
+}
+#showcase h1{
+    color:#fff;
+    font-size:3rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+.secondary-btn{
+    border:1px solid #aaa;
+    padding:20px;
+}
+.secondary-btn:hover{
+    color:#FF8C00;
+    border-color:#FF8C00
+}
